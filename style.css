@@ -30,15 +30,17 @@ a{
     background-image: url("images/food1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 400px;
     width: 100%;
 }
-#search .logo{
-
+#logo span{
+    margin-top: 7px;
+    margin-left: 30px;
     font-size: 90px;
     font-family: cursive;
+    position: absolute;;
 }
-.logo{
+#logo{
     height:150px;
     width:150px;
     border-radius: 50%;
@@ -46,6 +48,30 @@ a{
     margin-left: 47%;
     margin-top:1%;
     position: fixed;
+}
+#text{
+    font-size: 60px;
+    color: white;
+    margin-top: 13%;
+    margin-left: 30%;
+    position: absolute;
+}
+#dropdown{
+    width: 50%;
+    height: 60px;
+    color: white;
+    margin-top: 19%;
+    margin-left: 27%;
+    position: absolute;
+}
+select{
+    text-align: center;
+    font-size: 20px;
+    height: 60px;
+    width: 40%;
+}
+#restaurant{
+    width: 58%;
 }
 #quickSearch{
     border: 2px solid pink;
