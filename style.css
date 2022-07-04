@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+}
+header{
+    background: #810955;
+    height: 60px;
+    width: 100%;
+
+}
+#title{
+    font-size: 30px;
+    color: white;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+a{
+    text-decoration: none;
+
+}
+#social{
+    float: right;
+    margin-right: 1%;
+}
+#social img {
+ height: 50px;
+
+}
+#search{
+    background-image: url("images/food1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+#search .logo{
+
+    font-size: 90px;
+    font-family: cursive;
+}
+.logo{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 47%;
+    margin-top:1%;
+    position: fixed;
+}
+#quickSearch{
+    border: 2px solid pink;
+    height: 450px;
+    width: 100%;
+}
+#footer{
+    border: 2px solid greenyellow;
+    height: 60px;
+    width: 100%;
+}
