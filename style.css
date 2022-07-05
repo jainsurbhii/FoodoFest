@@ -130,7 +130,11 @@ color: #810955;
 }
 
 #footer{
-    border: 2px solid greenyellow;
-    height: 60px;
+    background: #810955;
     width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 60px;
+    line-height: 3.5;
 }
