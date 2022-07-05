@@ -47,7 +47,7 @@ a{
     background-color: white;
     margin-left: 47%;
     margin-top:1%;
-    position: fixed;
+    position: absolute;
 }
 #text{
     font-size: 60px;
@@ -74,10 +74,61 @@ select{
     width: 58%;
 }
 #quickSearch{
-    border: 2px solid pink;
-    height: 450px;
-    width: 100%;
+    height: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
+#QuickSearchHeading{
+    font-size: 30px;
+    display: block;
+    font-weight: bold;
+    color: #810955;
+    margin-left: 2%;
+}
+#FindRestaurant{
+    color: Grey;
+    font-size: 20px;
+    margin-left: 2%;
+    line-height: 2;
+}
+.foodbox{
+    width: 30%;
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.foodimg{
+    width: 52%;
+    height: 200px;
+    float: left;
+}
+.foodimg img{
+    width: 100%;
+    height: 200px;
+}
+.foodtitle{
+    width: 45%;
+    height: 200px;
+    float: left;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+.foodtitleheading{
+color: #810955;
+    font-size: 30px;
+}
+.foodtitleheading a{
+    color: #810955; !important;
+}
+.foodtitlecontent{
+    color: grey;
+    font-size: 20px;
+}
+
 #footer{
     border: 2px solid greenyellow;
     height: 60px;
