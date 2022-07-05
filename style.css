@@ -96,10 +96,10 @@ select{
 .foodbox{
     width: 30%;
     height: 200px;
-    border: 2px solid black;
     float: left;
     margin-left: 2%;
     margin-top: 3%;
+    box-shadow: 10px 20px 10px #D9B8CDFF;
 }
 .foodimg{
     width: 52%;
