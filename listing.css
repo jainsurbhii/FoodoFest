@@ -59,24 +59,36 @@ a{
     font-weight: bolder;
     margin-left: 1%;
 }
+figure{
+    float: left;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+figcaption{
+    text-align: center;
+    font-weight: bold;
+}
 .foodsimg{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-left: 1%;
-    margin-top: 2%;
-
+}
+.onlineFooddiv{
+     box-shadow: 10px 20px 10px #D9B8CDFF;
+    height: 900px;
+    width: 100%;
 }
 .onlineFood{
-    width: 30%;
-    height:200px;
-    margin-left: 2%;
-    margin-top: 2%
+       width: 350px;
+        height: 200px;
+    margin-left: 5%;
+    border: 2px solid #810955;
 
 }
 
 footer{
     background: #810955;
+    margin-top: 3%;
     width: 100%;
     height:80px;
     color: white;
