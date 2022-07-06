@@ -129,12 +129,10 @@ color: #810955;
     font-size: 20px;
 }
 
-#footer{
+footer{
     background: #810955;
     width: 100%;
-    text-align: center;
-    color: white;
-    font-size: 20px;
     height: 60px;
-    line-height: 3.5;
+    color: white;
+   text-align: center;
 }
