@@ -8,7 +8,7 @@
 <body>
 <header>
     <div id="title">
-        FoodoFest
+        <a href="index.html">FoodoFest</a>
     </div>
     <div id="social">
         <a href="facebook.com"><img src="https://i.ibb.co/Vpyn286/fb1-removebg-preview.png" alt="fb"></a>
@@ -19,20 +19,21 @@
 
 <div id="main">
     <div id="filter">
-        <p>Filters</p>
+        <p class="FilterHeading">Filters</p>
         <hr>
-        <p>Cuisine Filter</p>
+        <p class="FilterSubHeading">Cuisine Filter</p>
+
+        <input type="radio" id="North Indian"  value="North Indian" class="filterRadio"><label>North Indian</label><br>
+        <input type="radio" id="South Indian"  value="South Indian" class="filterRadio"><label>South Indian</label><br>
+        <input type="radio" id="Chines"  value="South Indian"class="filterRadio">Chines<br>
+        <input type="radio" class="filterRadio">Fast Food<br>
+        <input type="radio" class="filterRadio">Street Food
         <hr>
-        <input type="radio">North Indian
-        <input type="radio">South Indian
-        <input type="radio">Chines
-        <input type="radio">Fast Food
-        <input type="radio">Street Food
+        <p class="FilterSubHeading">Cost Filter</p>
+        <input type="radio" class="filterRadio">under 150<br>
+        <input type="radio" class="filterRadio">150-300<br>
+        <input type="radio" class="filterRadio">300-500<br>
         <hr>
-        <p>Cost Filter</p>
-        <input type="radio">under 150
-        <input type="radio">150-300
-        <input type="radio">300-500
 
     </div>
     <div id="listing">
@@ -72,7 +73,7 @@
                 <figcaption>Dominoz</figcaption>
             </figure>
             <figure>
-                <img src="images/kfc.png" alt="kfc"class="foodsimg">
+              <img src="images/kfc.png" alt="kfc"class="foodsimg">
                 <figcaption>KFC</figcaption>
             </figure>
             <figure>
@@ -82,31 +83,31 @@
 
         </div>
         <div class="onlineFooddiv">
-<p class="listingHeading">Order food online in Rambagh, Indore</p>
+            <p class="listingHeading">Order food online in Rambagh, Indore</p>
             <figure>
                 <img src="images/biryani.jpeg" alt="biryani" class="onlineFood">
-                <figcaption>Biryani Affair</figcaption>
+                <figcaption><a href="details.html">Biryani Affair</a></figcaption>
             </figure>
             <figure>
                 <img src="images/Starbucks.jpeg" alt="Starbucks" class="onlineFood">
-                <figcaption>StarBucks</figcaption>
+                <figcaption><a href="details.html">StarBucks</a></figcaption>
             </figure>
             <figure>
                 <img src="images/rotiwala.jpeg" alt="biryani" class="onlineFood">
-                <figcaption>99 RotiWala</figcaption>
+                <figcaption><a href="details.html">99 RotiWala</a></figcaption>
             </figure>
             <figure>
                 <img src="images/cake.webp" alt="biryani" class="onlineFood">
-                <figcaption>Cake company</figcaption>
+                <figcaption><a href="details.html">Cake company</a></figcaption>
             </figure>
 
             <figure>
                 <img src="images/Wow_momo.jpeg" alt="biryani" class="onlineFood">
-                <figcaption>Wow Momo's</figcaption>
+                <figcaption><a href="details.html">Wow Momo's</a><figcaption>
             </figure>
             <figure>
                 <img src="images/subway.jpeg" alt="biryani" class="onlineFood">
-                <figcaption>SubWay</figcaption>
+                <figcaption><a href="details.html">SubWay</a></figcaption>
             </figure>
 
         </div>

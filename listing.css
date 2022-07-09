@@ -1,8 +1,12 @@
+:root{
+    --colortheme:#810955;
+    --box-shadow:#D9B8CDFF;
+}
 body{
     margin: 0;
 }
 header{
-    background: #810955;
+    background-color: var(--colortheme);
     height: 60px;
     width: 100%;
 
@@ -16,6 +20,7 @@ header{
 }
 a{
     text-decoration: none;
+    color: white; !important;
 
 }
 #social{
@@ -26,6 +31,7 @@ a{
     height: 50px;
 
 }
+
 #main{
     width:80%;
     margin-left: 10%;
@@ -35,10 +41,24 @@ a{
 #filter{
     height:600px;
     width:20%;
-    border: 2px solid rgb(8, 0, 255);
+    border: 5px groove grey;
     float: left;
-
 }
+#filter hr{
+    width: 90%;
+    color: #a1a1a1;
+}
+
+.FilterHeading{
+    font-size: 25px;
+    font-weight: bold;
+}
+.FilterSubHeading{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
 #listing{
     width:75%;
     float: left;
@@ -50,7 +70,7 @@ a{
     width:100%;
     height: 300px;
     margin-top:2%;
-    box-shadow: 10px 20px 10px #D9B8CDFF;
+    box-shadow: 10px 20px 10px var(--box-shadow);
   
 
 }
@@ -58,6 +78,7 @@ a{
     font-size: 30px;
     font-weight: bolder;
     margin-left: 1%;
+    color: Grey;
 }
 figure{
     float: left;
@@ -77,17 +98,22 @@ figcaption{
      box-shadow: 10px 20px 10px #D9B8CDFF;
     height: 900px;
     width: 100%;
+
 }
 .onlineFood{
        width: 350px;
         height: 200px;
     margin-left: 5%;
-    border: 2px solid #810955;
+    border: 2px solid var(--colortheme);
 
+}
+.onlineFooddiv a{
+    text-decoration: none;
+    color: black;
 }
 
 footer{
-    background: #810955;
+    background: var(--colortheme);
     margin-top: 3%;
     width: 100%;
     height:80px;
