@@ -8,7 +8,8 @@
 <body>
 <header>
     <div id="title">
-        FoodoFest
+
+        <a href="index.html">FoodoFest</a>
     </div>
     <div id="social">
         <a href="facebook.com"><img src="https://i.ibb.co/Vpyn286/fb1-removebg-preview.png" alt="fb"></a>
@@ -24,12 +25,17 @@
     <div id="text">
     Search Place Near To you
     </div>
+
+    <form method="GET" id="form" class="drop1">
+
+        <input class="input" type="text" id="abcd"/>
+
+        <select id="demo"></select>
+
+        <button type="submit" id="updateButton ">Submit</button>
+    </form>
+    <button onclick="showdetails()">Button</button>
     <div id="dropdown">
-    <select>
-    <option>Select your city</option>
-        <option>Delhi</option>
-        <option>Mumbai</option>
-    </select>
         <select id="restaurant">
         <option>Select your Restaurant</option>
             <option>Wow Momos</option>
@@ -48,7 +54,7 @@
             </div>
             <div class="foodtitle">
                 <div class="foodtitleheading">
-                    <a href="">BreakFast</a>
+                    <a href="listing.html">BreakFast</a>
                 </div>
                 <div class="foodtitlecontent">
                    Best deal for BreakFast
@@ -61,7 +67,7 @@
             </div>
             <div class="foodtitle">
                 <div class="foodtitleheading">
-                    <a href="">Pizza</a>
+                    <a href="listing.html">Pizza</a>
                 </div>
                 <div class="foodtitlecontent">
                     Grap your Mid Meal
@@ -74,7 +80,7 @@
             </div>
             <div class="foodtitle">
                 <div class="foodtitleheading">
-                    <a href="">AfterNoon</a>
+                    <a href="listing.html">AfterNoon</a>
                 </div>
                 <div class="foodtitlecontent">
                     Best deal for AfterNoon
@@ -87,7 +93,7 @@
             </div>
             <div class="foodtitle">
                 <div class="foodtitleheading">
-                    <a href="">Lunch</a>
+                    <a href="listing.html">Lunch</a>
                 </div>
                 <div class="foodtitlecontent">
                     Best deal for Lunch
@@ -100,7 +106,7 @@
             </div>
             <div class="foodtitle">
                 <div class="foodtitleheading">
-                    <a href="">FastFood</a>
+                    <a href="listing.html">FastFood</a>
                 </div>
                 <div class="foodtitlecontent">
                     Best deal for FastFood
@@ -113,7 +119,7 @@
             </div>
             <div class="foodtitle">
                 <div class="foodtitleheading">
-                    <a href="">Momos</a>
+                    <a href="listing.html">Momos</a>
                 </div>
                 <div class="foodtitlecontent">
                     Best deal for Momos
@@ -128,8 +134,8 @@
     <footer>
         <hr>
         <p>&copy 2023 by FoodoFest.com</p>
-
     </footer>
+<script src="Script.js"></script>
 
 </body>
 </html>

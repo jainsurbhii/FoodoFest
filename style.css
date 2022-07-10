@@ -16,6 +16,7 @@ header{
 }
 a{
     text-decoration: none;
+    color: white; !important;
 
 }
 #social{
@@ -49,19 +50,31 @@ a{
     margin-top:1%;
     position: absolute;
 }
-#text{
+#text {
     font-size: 60px;
     color: white;
     margin-top: 13%;
     margin-left: 30%;
     position: absolute;
+
 }
+.drop1{
+    margin-top: 19%;
+    margin-left: 14%;
+    position: absolute;
+    width: 50%;
+    height: 60px;
+}
+#abcd{
+    visibility: hidden;
+}
+
 #dropdown{
     width: 50%;
     height: 60px;
     color: white;
     margin-top: 19%;
-    margin-left: 27%;
+    margin-left: 50%;
     position: absolute;
 }
 select{
