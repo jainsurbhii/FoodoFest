@@ -181,9 +181,27 @@ footer{
     color: white;
     text-align: center;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1180px) {
     body {
         background-color: firebrick;
+    }
+
+    .foodbox {
+        width: 45%;
+    }
+    #text {
+        margin-top: 20%;
+        margin-left: 22%;
+    }
+    #dropdown{
+        margin-top: 27%;
+        width: 69%;
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: yellow;
     }
 
     .foodbox {
@@ -199,60 +217,21 @@ footer{
         margin-left: 20%;
     }
 }
-@media screen and (max-width: 800px){
-body{
-    background-color:steelblue;
-}
-    .foodbox {
-        width: 90%;
-    }
-    #text {
-        margin-top: 35%;
-        margin-left: 15%;
-        font-size: 40px;
-    }
-    #dropdown{
-        margin-top: 50%;
-        width: 100%;
-        display: block;
-        margin-left: 10%;
-    }
 
-}
 @media screen and (max-width: 800px){
     body{
-        background-color:steelblue;
+        background-color:green;
     }
     .foodbox {
         width: 90%;
     }
     #text {
-        margin-top: 35%;
-        margin-left: 15%;
-        font-size: 40px;
-    }
-    #dropdown{
-        margin-top: 50%;
-        width: 100%;
-        display: block;
-        margin-left: 10%;
-    }
-
-}
-@media screen and (max-width: 800px){
-    body{
-        background-color:pink;
-    }
-    .foodbox {
-        width: 90%;
-    }
-    #text {
-        margin-top: 27%;
+        margin-top: 30%;
         margin-left: 20%;
         font-size: 40px;
     }
     #dropdown{
-        margin-top: 37%;
+        margin-top: 40%;
         width: 100%;
         display: block;
         margin-left: 1%;
